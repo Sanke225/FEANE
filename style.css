@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    
+}
+
+:root {
+    --Jaune: #ffc107 ;
+    --blanc: #ffff ;
+    --noir: #000000 ;
+    --gris:#efefef ;
+}
+
+.nav-link {
+    color: var(--blanc);
+}
+
+.navbar-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.police-dancing {
+    font-family: "Dancing Script", cursive;
+}
+
+
+.nav-link:hover {
+    color: var(--Jaune) ;
+}
+
+.active-page {
+    color: var(--Jaune);
+}
+
+.background-hero {
+    display: flex;
+    align-items: center;
+    background-image: url("/Resto-image/hero-bg.jpg.jpeg");
+    height: 100vh;
+    opacity: 1;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.Nav-icon {
+    text-decoration: none;
+    color: var(--blanc);
+    transition: all 0.3 ease;
+    font-size: 1.5rem;
+}
+
+.Nav-icon:hover {
+    color: var(--Jaune);
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid var(--Jaune);
+    overflow: hidden;
+    position: relative;
+}
+
+.card-hover img {
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+
+
+.card-hover:hover img {
+    transform: scale(1.1);
+}
+
+.image-menu {
+    background-color: var(--gris);
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav-icon-menu {
+    text-decoration: none;
+    color: var(--blanc);
+    transition: all 0.3 ease;
+    font-size: 1.5rem;
+    background-color: var(--Jaune);
+    border-radius: 100px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.Nav-icon-menu:hover {
+    color: var(--noir);
+}
+
+.card-image-menu-hover img {
+    width: 200px;
+    transition: all 0,5s ease;
+}
+
+.card-image-menu-hover:hover img {
+    transform: scale(1.1);
+}
+
+.image-customers {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid var(--Jaune);
+    overflow: hidden;
+    position: relative;
+}
